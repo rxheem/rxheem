@@ -6,7 +6,7 @@ import './Footer.css';
 
 const Footer = props => {
   return (
-    <footer>
+    <footer className='footer mt-auto py-3'>
       <Nav className='justify-content-center'>
         <FooterNavItem title='Portfolio' to='/portfolio/' />
         <FooterNavItem title='Contact' to='/contact/' />
